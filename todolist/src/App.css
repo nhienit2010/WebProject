@@ -1,0 +1,31 @@
+.App div.sideLeft form {
+  border: 2px solid rgba(173, 165, 165,0.5);
+  padding: 20px;
+  border-radius: 30px;
+}
+.App div.sideLeft form select {
+  width: 30%;
+}
+.App div.sideRight input {
+  margin-top: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+.App div.sideRight table {
+  margin-top: 20px;
+}
+.App div .sideRight table tbody tr button{
+	margin-right: 20px;
+}
+.App div .sideRight table tbody tr label{
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+}
+.App div .sideRight table tbody tr label.label-success {
+	background-color: rgba(50, 227, 55);
+}
+.App div .sideRight table tbody tr label.label-danger {
+	background-color: rgba(232, 37, 57);
+}
